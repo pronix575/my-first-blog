@@ -1,28 +1,64 @@
 <html>
-<head>
-	<title>hi</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
-	<style type="text/css">
-		body {
-			background: linear-gradient(45deg, #3f48cc, #f9254f);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-			color: #FFFFFF;
-		}
+    <head>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Django blog</title>
+    </head>
+    <body>
+    	<style type="text/css">
+    		body {
+    			font-family: 'Montserrat';
+    			margin: 0;
+    			padding: 0;
+    		}
 
-		h1 {
-			font-weight: bold;
-			font-size: 55px;
-			font-family: 'Montserrat'; 
-		}
-	</style>
+    		.header {
+    			background: #282828;
+    			width: 100%;
+    			height: auto;
+    			display: flex;
+    			align-items: center;
+    			justify-content: center;
+    			color: white;
+    			/*box-shadow: 0 2px 6px #4a4a4a;*/
+    		}
 
-	<h1>
-		иди на работу!
-	</h1>
-</body>
+    		.wrapPost {
+    			padding: 50px 50px 0 50px;
+    			display: flex;
+    			justify-content: center;
+    		}
+
+    		.post {
+    			border: 2px solid black;
+    			border-radius: 10px; 
+    			width: 100%;
+    			padding: 50px;
+    		}
+
+    		.post a {
+    			text-decoration: none;
+    			color: black;
+    		}
+    	</style>
+
+        <div class="header">
+            <h1>Django Blog</h1>
+        </div>
+
+        <div class="wrapPost">
+	        <div class="post">
+	            <h2><a href="">My first post</a></h2>
+	            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	            <p>published: 14.06.2014, 12:14</p>
+	        </div>
+	    </div>    
+
+	    <div class="wrapPost">
+	        <div class="post">
+	            <h2><a href="">My second post</a></h2>
+	            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+	            <p>published: 14.06.2014, 12:14</p>
+	        </div>
+	    </div>    
+    </body>
 </html>
