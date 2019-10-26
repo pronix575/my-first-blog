@@ -46,11 +46,22 @@ body {
 	padding: 20px 40px 30px 40px;
 }
 
+.post p {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
 .postOne {
 	width: 80%;
 	font-size: 20px;
 	padding: 10px 40px 40px 40px;
 	border-radius: 20px; 
+}
+
+.postOne p {
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 31px;
 }
 
 .post a {
