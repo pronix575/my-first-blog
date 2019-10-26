@@ -1,0 +1,35 @@
+body {
+	font-family: 'Montserrat';
+	margin: 0;
+	padding: 0 0 40px 0;
+}
+
+.header {
+	background: #282828;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	/*box-shadow: 0 2px 6px #4a4a4a;*/
+}
+
+.wrapPost {
+	padding: 40px 40px 0 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.post {
+	box-shadow: 0 5px 8px #949494; 
+	background: #fafafa;
+	border-radius: 10px; 
+	width: 100%;
+	padding: 20px 40px 30px 40px;
+}
+
+.post a {
+	text-decoration: none;
+	color: black;
+}
