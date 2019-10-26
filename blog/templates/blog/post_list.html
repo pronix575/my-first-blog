@@ -5,7 +5,7 @@
 	
 		<div class="wrapPost">
 			<div class="post">
-				<h2>{{ post.title }}</h2>
+				<h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
 				<p>{{ post.text|linebreaksbr }}</p>
     			<p>{{ post.published_date }}</p>	
 			</div>
