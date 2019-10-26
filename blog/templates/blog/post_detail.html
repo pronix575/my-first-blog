@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-	
+
 	<div class="wrapPost">
 	    <div class="postOne">
 	        <h1>{{ post.title }}</h1>
@@ -10,6 +10,14 @@
 	            {{ post.published_date }}
 	        {% endif %}
 	    </div>
-	</div>    
+	</div>
+	<div class="wrapPost">
+	    <a href="{% url 'post_edit' pk=post.pk %}">
+	    	<div class="editBtn">
+	    		edit
+                <i class="fa fa-edit"></i>
+            </div>    
+        </a>
+    </div>
 
 {% endblock %}

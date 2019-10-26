@@ -2,6 +2,7 @@ body {
 	font-family: 'Comfortaa';
 	margin: 0;
 	padding: 0 0 40px 0;
+	background: #fafafa;
 }
 
 .header h1 a {
@@ -39,7 +40,7 @@ body {
 
 .post {
 	box-shadow: 0 5px 11px #949494; 
-	background: #fafafa;
+	background: white;
 	border-radius: 20px; 
 	width: 100%;
 	padding: 20px;
@@ -47,6 +48,7 @@ body {
 }
 
 .post p {
+	color: #545454;
     font-size: 20px;
     font-family: 'Roboto';
 }
@@ -59,6 +61,7 @@ body {
 }
 
 .postOne p {
+	color: #434343;
     font-family: 'Roboto';
     font-size: 25px;
     line-height: 31px;
@@ -66,5 +69,66 @@ body {
 
 .post a {
 	text-decoration: none;
-	color: #3f48cc;
+	color: black;
+}
+
+.newPostPlus {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.newPostPlus a i {
+	color: black;
+	background: none;
+}
+
+.postEditor p {
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+
+.newPost {
+	background: white;
+	border-radius: 20px;
+	box-shadow: 0 5px 11px #949494;
+	padding: 20px 60px 30px 60px;
+}
+
+.newPost p {
+	font-size: 25px;
+}
+
+.editBtn {
+	box-shadow: 0 5px 11px #949494;
+	width: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background: black;
+    border-radius: 10px; 
+}
+
+.saveBtn {
+	box-shadow: 0 5px 11px #949494;
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: white;
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+    border: none; 
+}
+
+.editBtn:hover , .saveBtn:hover {
+	background: linear-gradient(#474747, #161616);
+}
+
+a {
+	text-decoration: none;
 }
