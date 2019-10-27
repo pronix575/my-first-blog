@@ -149,21 +149,25 @@ a {
 }
 
 @media(max-width: 1080px) {
-  	.header { 
-  		font-size: 26px;
-  	}
+    .wrapPost {
+        padding: 15px 15px 0 15px;
+    }
 
-  	.postOne p, .post p {
-  		line-height: 30px;
+  	.header { 
   		font-size: 22px;
   	}
 
+  	.postOne p, .post p {
+  		line-height: 26px;
+  		font-size: 18px;
+  	}
+
   	.saveBtn, .editBtn, .newPostPlus {
-  		font-size: 26px;
+  		font-size: 22px;
   	}
 
   	.postOne h2, .post h2 {
-  		font-size: 26px;
+  		font-size: 22px;
   	}
 
 }
