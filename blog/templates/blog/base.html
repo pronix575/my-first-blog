@@ -1,11 +1,15 @@
-{% load static %}
+{% load staticfiles %}
 
 <html>
     <head>
+		<link href="{% static 'fonts/ProductSans-Regular.ttf' %}" rel="stylesheet">
+		<link href="{% static 'fonts/ProductSans-Bold.ttf' %}" rel="stylesheet">
+
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 
         <title>Iskander Karimov blog</title>
@@ -13,7 +17,7 @@
     <body>
 	    
 	    <div class="header">
-	        <h1><a href="/">Iskander Karimov blog</a></h1>
+	        <h1><a href="/">Iskander Karimov Blog</a></h1>
 	    </div>
 	    <div class="content container">
 	        <div class="row">

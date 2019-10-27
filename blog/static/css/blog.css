@@ -1,7 +1,18 @@
+@font-face {
+	font-family: 'googleSans';
+	src: url('../fonts/ProductSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'googleSansBold';
+	src: url('../fonts/ProductSans-Bold.ttf');
+}
+
 body {
-	font-family: 'Comfortaa';
+    letter-spacing: 1px;
 	margin: 0;
 	padding: 0 0 40px 0;
+	font-family: 'googleSansBold';
 	background: #fafafa;
 }
 
@@ -22,16 +33,6 @@ body {
 	box-shadow: 0 5px 8px #949494;
 }
 
-@media (max-width: 1080px) {
-  	.header { 
-  		font-size: 30px;
-  	}
-
-  	.post {
-  		width: 100%;
-  	}
-}
-
 .wrapPost {
 	padding: 40px 40px 0 40px;
 	display: flex;
@@ -45,12 +46,12 @@ body {
 	width: 100%;
 	padding: 20px;
 	padding: 20px 40px 30px 40px;
+    font-family: 'googleSans';
 }
 
 .post p {
 	color: #545454;
     font-size: 20px;
-    font-family: 'Roboto';
 }
 
 .postOne {
@@ -58,11 +59,11 @@ body {
 	font-size: 20px;
 	padding: 10px 40px 40px 40px;
 	border-radius: 20px; 
+    font-family: 'googleSans';
 }
 
 .postOne p {
 	color: #434343;
-    font-family: 'Roboto';
     font-size: 25px;
     line-height: 31px;
 }
@@ -118,7 +119,7 @@ body {
 	justify-content: center;
 	align-items: center;
     color: white;
-    padding: 10px 15px 10px 15px;
+    padding: 20px 0 20px 0;
     background: black;
     border-radius: 20px;
     font-size: 31px; 
@@ -130,11 +131,12 @@ body {
 	justify-content: center;
 	align-items: center;
     color: white;
-    padding: 10px 25px 10px 25px;
+    padding: 20px 40px 20px 40px;
     background: black;
     border-radius: 10px;
     border: none;
-    font-size: 30px; 
+    font-size: 30px;
+    font-family: 'googleSans';
 }
 
 .editBtn:hover , .saveBtn:hover, .newPostPlus:hover {
@@ -144,4 +146,24 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+@media(max-width: 1080px) {
+  	.header { 
+  		font-size: 30px;
+  	}
+
+  	.postOne p, .post p {
+  		line-height: 40px;
+  		font-size: 35px;
+  	}
+
+  	.saveBtn, .editBtn, .newPostPlus {
+  		font-size: 43px;
+  	}
+
+  	.postOne h2, .post h2 {
+  		font-size: 37px;
+  	}
+
 }
