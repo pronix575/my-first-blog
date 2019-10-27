@@ -73,15 +73,25 @@ body {
 }
 
 .newPostPlus {
+	background: black;
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	font-size: 25px;
+	border-radius: 20px;
+	box-shadow: 0 5px 11px #949494;
 }
 
 .newPostPlus a i {
-	color: black;
-	background: none;
+	border-radius: 20px;
+	height: auto;
+	padding: 20px 0 20px 0;
+	color: white;
+}
+
+.newPostPlus a {
+	color: white;
+	text-decoration: none;
 }
 
 .postEditor p {
@@ -101,15 +111,16 @@ body {
 }
 
 .editBtn {
+	margin-right: 20px;
 	box-shadow: 0 5px 11px #949494;
-	width: 110px;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
     color: white;
     padding: 10px 15px 10px 15px;
     background: black;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 31px; 
 }
 
@@ -126,7 +137,8 @@ body {
     font-size: 30px; 
 }
 
-.editBtn:hover , .saveBtn:hover {
+.editBtn:hover , .saveBtn:hover, .newPostPlus:hover {
+	transition-duration: 3s;
 	background: linear-gradient(#474747, #161616);
 }
 
