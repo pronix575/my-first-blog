@@ -54,6 +54,11 @@ body {
     font-size: 20px;
 }
 
+.h1 {
+  	    font-family: 'googleSansBold';
+  		font-size: 28px;
+}
+
 .postOne {
 	width: 100%;
 	font-size: 20px;
@@ -150,7 +155,7 @@ a {
 
 @media(max-width: 1080px) {
     body {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .wrapPost {
@@ -159,7 +164,7 @@ a {
 
   	.h1 {
   	    font-family: 'googleSansBold';
-  		font-size: 26px;
+  		font-size: 28px;
   	}
 
     .post {
