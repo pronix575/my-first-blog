@@ -4,7 +4,7 @@
 
 	<div class="wrapPost">
 	    <div class="postOne">
-	        <h1>{{ post.title }}</h1>
+			<span class="h1">{{ post.title }}</span>
 	        <p>{{ post.text|linebreaksbr }}</p>
 	        {% if post.published_date %}
 	            <p style="margin-bottom: 0">{{ post.published_date }}</p>
@@ -14,7 +14,7 @@
 
 
 	{% if user.is_authenticated %}
-		<div class="wrapPost">
+		<div style="margin-top: 20px">
 		    <a href="{% url 'post_edit' pk=post.pk %}" style="width: 100%;">
 		    	<div style="padding: 0 40px 0 40px; display: flex; justify-content: center;">
 			    	<div class="editBtn">
