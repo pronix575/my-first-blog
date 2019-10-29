@@ -55,8 +55,9 @@ body {
 }
 
 .h1 {
-  	    font-family: 'googleSansBold';
-  		font-size: 28px;
+    font-family: 'googleSansBold';
+  	font-size: 28px;
+  	font-weight: bold;
 }
 
 .postOne {
@@ -161,7 +162,7 @@ a {
     .wrapPost {
         padding: 25px 25px 0 25px;
     }
-    
+
     .post {
         padding: ;
         padding: 10px 25px 10px 25px;
