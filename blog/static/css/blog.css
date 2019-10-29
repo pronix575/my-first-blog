@@ -154,6 +154,10 @@ a {
 	text-decoration: none;
 }
 
+.postEditor input {
+    width: 600px;
+}
+
 @media(max-width: 1080px) {
     .newPost {
         width: 100%;
